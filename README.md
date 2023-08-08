@@ -14,7 +14,7 @@
 ![dashboard snap](https://github.com/sumitkumar1503/vehicleservicemanagement/blob/master/static/screenshots/customer_dashboard.png?raw=true)
 ---
 ## FUNCTIONS
-## Customer
+### Customer
 - customer will signup and login into system
 - customer can make request for service of their vehicle by providing details (vehicle number, model, problem description etc.)
 - After Request approved by admin, customer can check cost, status of service
@@ -24,7 +24,7 @@
 - customer can send feedback to admin
 - customer can see/edit their profile
 ---
-## Mechanic
+### Mechanic
 - mechanic will apply for job by providing details like (skills, address, mobile etc.)
 - Admin will hire(approve) mechanic account based on skill
 - After account approval, mechanic can login into system
@@ -56,7 +56,7 @@ py manage.py createsuperuser
 - we can change theme of website day(white) and night(black)
 - if customer is deleted by admin then their request(Enquiry) will be deleted automatically
 
-## HOW TO RUN THIS PROJECT
+### HOW TO RUN THIS PROJECT
 - Install Python(3.7.6) (Dont Forget to Tick Add to Path while installing Python)
 - Open Terminal and Execute Following Commands :
 ```
@@ -76,17 +76,13 @@ py manage.py runserver
 http://127.0.0.1:8000/
 ```
 
-## CHANGES REQUIRED FOR CONTACT US PAGE
+### CHANGES REQUIRED FOR CONTACT US PAGE
 - In settins.py file, You have to give your email and password
 ```
 EMAIL_HOST_USER = 'youremail@gmail.com'
 EMAIL_HOST_PASSWORD = 'your email password'
 EMAIL_RECEIVING_USER = 'youremail@gmail.com'
-```
-- Login to gmail through host email id in your browser and open following link and turn it ON
-```
-https://myaccount.google.com/lesssecureapps
-```
+
 
 
 
